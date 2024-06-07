@@ -1,0 +1,20 @@
+/* example of descendant selector
+    where multiple css rules are separated 
+    to test more than one combinations of selectors
+    */
+
+div p {
+    font-size: 20px;
+}
+
+div .text {
+    color: #ff0000;
+}
+
+.container .text {
+    text-align: center;
+}
+
+div > p {
+    background-color: yellow;
+}
